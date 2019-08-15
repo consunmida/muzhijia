@@ -1,0 +1,258 @@
+/* 信息 */
+.message-wrap {
+    padding-top: 0.5rem;
+}
+
+.message-wrap .message-content {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.message-wrap .message-header {
+    display: flex;
+}
+.message-wrap .message-user-info {
+    flex: 3;
+    position: relative;
+    padding-left: 1.818rem;
+}
+
+.message-wrap .message-user-info .avatar {
+    position: absolute;
+    width: 1.4rem;
+    height: 1.4rem;
+    left: 0;
+    top: 50%;
+
+    transform: translate(0, -50%);
+}
+
+.message-wrap .message-user-info .no-avatar {
+    border: 0.1rem solid #666;
+    border-radius: 50%;
+}
+
+.message-wrap .message-user-info .avatar img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.message-wrap .message-user-info .customer-name {
+   margin-bottom: 0.12rem;
+}
+
+.message-wrap .message-user-info .user-update-time {
+    color: #999;
+}
+.message-wrap .message-text-wrap  {
+    display: flex;
+}
+
+.message-wrap .message-text-wrap .message-img  {
+    width: 20rem;
+    height: 3rem;
+}
+
+.message-wrap .message-text-wrap .message-img img {
+    height: auto;
+    width: 100%;
+}
+
+.message-wrap .wages {
+    display: 1;
+    color: #FF0000;
+}
+.message-wrap .message-footer {
+    margin-top: 0.4rem;
+}
+
+.message-wrap .message-footer::after {
+    content: '';
+    display: none;
+    clear: both;
+}
+.message-wrap .message-type {
+    display: inline-block;
+    border-radius: 0.2rem;
+    padding: 0 0.454rem;
+    color: #FF6600;
+}
+
+.message-wrap .message-publish-position {
+    float: right;
+    color: #ccc;
+    padding-left: 0.909rem;
+    background-image: url('../../images/icon-user.png');
+    background-repeat: no-repeat;
+    background-size: 0.909rem;
+}
+
+.message-wrap .message-view-count {
+    display: inline-block;
+}
+
+.message-wrap .message-type-zhaopin {
+    background: #ffcccc;
+}
+
+.message-wrap .message-type-changfang {
+    background: #ffcc2d;
+}
+
+
+
+/* tab切换 */
+
+.public-tab {
+    margin: 0.5rem 0;
+}
+
+.public-tab ul{font-size:0;box-sizing:border-box;display:flex;justify-content:space-around;}
+.public-tab ul li{position:relative; display:inline-block;text-align:center;width: 20%;}
+.public-tab ul li h3{font-size:0.5rem;color:#888;line-height:1.2rem;}
+
+.public-tab .tab-text {
+    display: inline-block;
+    border-bottom: 0.1rem solid transparent;
+}
+
+.public-tab .tab-text.active {
+    border-color: #ff0e17;
+}
+
+/* 发布按钮 */
+
+.public-footer {
+    z-index: 999;
+    font-size:0;
+    background:#fff;position:fixed;
+    left:0;bottom:0;width:100%;
+    height: 3.16667rem;
+    text-align: center;
+    line-height: 3.16667rem;
+}
+
+.public-footer .publish-btn {
+    position: relative;
+    height: 1.2rem;
+    width: 6.36rem;
+    background-color: rgba(255, 153, 0, 1);
+    border-radius: 0.226rem;
+    border:none;
+    cursor: pointer;
+    font-size:0.636rem;
+    color: #fff;
+}
+.public-footer .publish-btn-common {
+    width: 0;
+    transform: translate(-50%, 100%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    z-index: 3;
+    font-size: 0.545rem;
+}
+
+.public-footer .publish-btn-bg {
+    background: #fff;
+    height: 4rem;
+    position: absolute;
+    width: 100%;
+    bottom: 50%;
+    transform: translate(0, -1.2rem);
+    text-align: center;
+    z-index: 2;
+    display: none;
+}
+.public-footer .publish-btn-active {
+    display: block;
+}
+
+.public-footer .publish-btn-active .publish-btn-common {
+    width: 2.272rem;
+    height: 2.272rem;
+    border-radius: 50%;
+    border: 0.05rem solid rgba(255, 153, 0, 1);
+    
+    text-align: center;
+    line-height: initial;
+}
+
+.public-footer .publish-btn-active .publish-animate-first {
+     animation: publishBtnFirstAnimation 0.5s  forwards; 
+    -webkit-animation: publishBtnFirstAnimation 0.5s  forwards;
+}
+.public-footer .publish-btn-active .publish-animate-second {
+    animation: publishBtnSecondAnimation 0.5s  forwards; 
+   -webkit-animation: publishBtnSecondAnimation 0.5s  forwards;
+}
+.public-footer .publish-btn-active .publish-animate-third {
+    animation: publishBtnThirdAnimation 0.5s  forwards; 
+   -webkit-animation: publishBtnThirdAnimation 0.5s  forwards;
+}
+
+@keyframes publishBtnFirstAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(calc(-50% - 1rem - 2.272rem), -50%);
+        }
+}
+
+@-webkit-keyframes publishBtnFirstAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(-webkit-calc(-50% - 1rem - 2.272rem), -50%);
+        }
+}
+
+@keyframes publishBtnSecondAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(-50%, -50%);
+        }
+}
+
+@-webkit-keyframes publishBtnSecondAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(-50%, -50%);
+        }
+}
+
+@keyframes publishBtnThirdAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(calc(-50% + 1rem + 2.272rem), -50%);
+        }
+}
+
+@-webkit-keyframes publishBtnThirdAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(-webkit-calc(-50% + 1rem + 2.272rem), -50%);
+        }
+}
+
+.publish-btn-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: rgba(255, 153, 0, 1);
+}

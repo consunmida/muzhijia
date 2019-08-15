@@ -13,78 +13,49 @@
     <title>首页</title>
     <link rel="stylesheet" href="../public/css/base.css">
     <link rel="stylesheet" href="../public/css/public.css">
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/zhaopin.css">
 </head>
 <body>
-    <div class="home">
+    <div class="zhaopin">
         <header class="header-wrap">
             <div class="header-l">
                 <a href="javascript:history.go(-1)">
                     <i class="back"></i>
                 </a>
             </div>
-            <div class="header-inp clearfix header-inp-ser">
-                <form id="search-form">
-                    <input type="text" class="search-input" name="keyword" id="keyword" placeholder="请输入关键字搜索" autocomplete="on" autofocus="">
-                    <span class="input-del"></span>
-                </form> 
-            </div>           
-            <div class="header-r">
-                <a id="header-nav" href="javascript:void(0);" class="search-btn"></a>
+            <div class="header-title">
+                <h1>
+                    求职招聘
+                </h1>
             </div>
         </header>
 
         <div class="content">
-            <!-- 位置 -->
-            <div class="current-position">
-                <span class="position-detail">上海市<i class="down-arrow"></i></span>
-            </div>
-            <div class="menu">
+            <div class="public-tab">
                     <ul class="clearfix">
                             <li class="active">
-                                <a href="../zhaopin/zhaopin.html">
-                                    <i class="icon menu-first"></i>
-                                    <h3>求职招聘</h3>
+                                <a href="#">
+                                    <h3><span class="tab-text active">全部</span></h3>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="icon menu-classify"></i>
-                                    <h3>厂房</h3>
+                                    <h3>全职招聘</h3>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="icon menu-find"></i>
-                                    <h3>二手设备</h3>
+                                    <h3>兼职招聘</h3>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="icon menu-cart"></i>
-                                    <h3>特价产品</h3>
+                                    <h3>找工作</h3>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <i class="icon menu-myMan"></i>
-                                    <h3>物流</h3>
-                                </a>
-                            </li>
-                        </ul>
+                    </ul>
             </div>
-            <!---广告位---->
-            <div class="advertise-block">
-                <!---临时的文件---->
-                <img src="../images/activity.png" alt="">
-               <!-- <a href="#"></a> -->
-            </div>
-            <!-- 最新发布信息 -->
             <div class="lartest-message">
-                <div class="message-title">
-                    <h5>最新发布信息</h5>
-                </div>
-
                 <div class="message-wrap">
                     <ul>
                         <li class="message-content">
@@ -97,7 +68,7 @@
                                     <div class="customer-name fz-26">用户—100232323</div>
                                     <div class="user-update-time fz-26">8分钟前</div>
                                 </div>
-                                <div class="wages fz-30">￥5000元</div>
+                                <div class="wages fz-30"></div>
                             </div>
 
                             <!-- 内容 -->
@@ -115,7 +86,7 @@
 
                             <div class="message-footer fz-24">
                                 <div class="message-type message-type-zhaopin">
-                                    招聘.兼职招聘
+                                    兼职招聘
                                 </div>
                                 <div class="message-view-count"><span>0</span>查看</div>
                                 <div class="message-publish-position">上海</div>
@@ -132,7 +103,7 @@
                                         <div class="customer-name fz-26">用户—100232323</div>
                                         <div class="user-update-time fz-26">8分钟前</div>
                                     </div>
-                                    <div class="wages fz-30">￥5000元</div>
+                                    <div class="wages fz-30"></div>
                                 </div>
     
                                 <!-- 内容 -->
@@ -150,7 +121,7 @@
     
                                 <div class="message-footer fz-24">
                                     <div class="message-type message-type-zhaopin">
-                                        招聘.兼职招聘
+                                        兼职招聘
                                     </div>
                                     <div class="message-view-count"><span>0</span>查看</div>
                                     <div class="message-publish-position">上海</div>
@@ -161,45 +132,24 @@
             </div>
         </div>
 
-        <div class="footer">
-            <ul class="clearfix">
-                <li class="active">
-                    <a href="#">
-                        <i class="icon footer-first"></i>
-                        <h3>首页</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="icon footer-classify"></i>
-                        <h3>分类</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="icon footer-find"></i>
-                        <h3>发现</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="icon footer-cart"></i>
-                        <h3>消息</h3>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="icon footer-myMan"></i>
-                        <h3>我的</h3>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- 发布按钮 -->
-        <div class="publish">
-            +发布
+        <div class="public-footer">
+            <button class="publish-btn" id="publish-btn">
+                发布求职招聘
+            </button>
+            <div class="publish-btn-bg">
+                <div class="publish-btn-common publish-animate-first">
+                   <a href="#" class="publish-btn-text">全职<br>招聘</a>
+                </div>
+                <div class="publish-btn-common publish-animate-second">
+                    <a href="#" class="publish-btn-text">兼职<br>招聘</a>
+                </div>
+                <div class="publish-btn-common publish-animate-third">
+                    <a href="#"  class="publish-btn-text">找工作</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+<script src="../public/js/zepto.min.js"></script>
+<script src="./js/zhaopin.js"></script>
 </html>

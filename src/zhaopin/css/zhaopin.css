@@ -1,0 +1,13 @@
+.zhaopin {
+    height: 100%;
+}
+
+.zhaopin .content {
+    padding: 0.5rem;
+    padding-bottom: 3.16667rem;
+    padding-top: 2rem;
+    background: #fff;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}

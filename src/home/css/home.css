@@ -106,22 +106,13 @@
     overflow: hidden;
 }
 
+
 .home  .message-title {
     position: relative;
     height: 1px;
     background-color: #cccccc;
     width: 70%;
     margin: 0.5rem auto;
-}
-
-.home .message-wrap {
-    padding-top: 0.5rem;
-}
-
-.home .message-content {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 0.7rem;
-    margin-bottom: 0.7rem;
 }
 
 .home  .message-title h5 {
@@ -136,98 +127,7 @@
     transform: translate(-50%, -50%);
 
 }
-.home .message-header {
-    display: flex;
-}
-.home .message-user-info {
-    flex: 3;
-    position: relative;
-    padding-left: 1.818rem;
-}
 
-.home .message-user-info .avatar {
-    position: absolute;
-    width: 1.4rem;
-    height: 1.4rem;
-    left: 0;
-    top: 50%;
-
-    transform: translate(0, -50%);
-}
-
-.home .message-user-info .no-avatar {
-    border: 2px solid #666;
-    border-radius: 50%;
-}
-
-.home .message-user-info .avatar img {
-    display: inline-block;
-    border-radius: 50%;
-    width: 100%;
-    height: auto;
-}
-
-.home .message-user-info .customer-name {
-   margin-bottom: 0.12rem;
-}
-
-.home .message-user-info .user-update-time {
-    color: #999;
-}
-.home .message-text-wrap  {
-    display: flex;
-}
-
-.home .message-text-wrap .message-img  {
-    width: 20rem;
-    height: 3rem;
-}
-
-.home .message-text-wrap .message-img img {
-    height: auto;
-    width: 100%;
-}
-
-.home .wages {
-    display: 1;
-    color: #FF0000;
-}
-.home .message-footer {
-    margin-top: 0.4rem;
-}
-
-.home .message-footer::after {
-    content: '';
-    display: none;
-    clear: both;
-}
-.home .message-type {
-    display: inline-block;
-    border-radius: 0.2rem;
-    padding: 0 0.454rem;
-    color: #FF6600;
-}
-
-.home .message-publish-position {
-    float: right;
-    color: #ccc;
-    padding-left: 0.909rem;
-    background-image: url('../../images/icon-user.png');
-    background-repeat: no-repeat;
-    background-size: 0.909rem;
-}
-
-.home .message-view-count {
-    display: inline-block;
-}
-
-.home .message-type-zhaopin {
-    background: #ffcccc;
-}
-
-.home .message-type-changfang {
-    background: #ffcc2d;
-}
 
 .home .publish {
     position: fixed;
