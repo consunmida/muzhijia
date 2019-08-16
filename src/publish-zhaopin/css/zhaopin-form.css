@@ -1,0 +1,7 @@
+.header-wrap { display: block;margin: 0 auto; text-align: center; }
+.header-l { display: block;height: 1.95rem; position: absolute; top: 0; left: 0.454rem; }
+.header-l a { position: relative; z-index: 1; display: inline-block; width: 0.409rem; height: 1.95rem;line-height:1.95rem;}
+.header-l a i {display:inline-block; width:0.409rem; height:0.75rem;background: url(../../images/bbc-bg45.png) no-repeat center;background-size:cover;}
+
+.header-title { display: inline-block; margin: 0 auto; }
+.header-title h1 { font-size:0.818rem; line-height:2rem; height:2rem; }
