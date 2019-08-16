@@ -256,3 +256,35 @@
     width: 100%;
     color: rgba(255, 153, 0, 1);
 }
+
+
+/* key-value 形式的描述详情 */
+
+.detail-message h5 {
+    font-size:0.681rem;
+    margin-top: 1rem;
+}
+.detail-message .detail-message-content {
+    display: flex;
+    font-size: 0.590rem;
+    justify-content: start;
+    margin-top: 0.362rem;
+}
+.detail-message .detail-message-content .detail-message-label {
+    display: block;
+    margin-right: 0.5rem;
+    width: 2.4rem;
+    text-align: right;
+}
+.detail-message .detail-message-content .detail-message-text-wrap {
+    display: block;
+    flex:1;
+}
+.detail-message  .tag {
+    display: inline-block;
+    border-radius: 0.2rem;
+    padding: 0 0.454rem;
+    color: #fff;
+    margin-left: 0.5rem;
+    background: #ffcccc;
+}

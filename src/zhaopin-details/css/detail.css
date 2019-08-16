@@ -1,0 +1,23 @@
+.zhaopin-detail {
+    height: 100%;
+}
+.zhaopin-detail .content {
+    padding: 1rem;
+    padding-bottom: 3.16667rem;
+    padding-top: 2rem;
+    background: #fff;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.zhaopin-detail .detail-image {
+   overflow: hidden;
+   margin: 0.545rem 0;
+}
+
+.zhaopin-detail .detail-image img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
