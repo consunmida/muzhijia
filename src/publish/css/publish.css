@@ -1,0 +1,70 @@
+.publish {
+    height: 100%;
+}
+.publish .content {
+    padding: 1rem;
+    padding-bottom: 3.16667rem;
+    padding-top: 2rem;
+    background: #fff;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.publish .content .publish-item {
+    border-bottom: 0.05rem solid #ccc;
+    padding: 1.363rem 0.818rem;
+    margin: 0 -1rem;
+}
+
+.publish .publish-item-header {
+    font-size: 0.636rem;
+}
+
+.publish .publish-item-header .publish-item-header-dot{
+    width: 0.727rem;
+    height: 0.727rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.727rem;
+}
+
+.publish .publish-item-header .qiuzhi {
+    background: #33cc33;
+}
+
+.publish .publish-item-header .changfang {
+    background: #3399fc;
+}
+
+.publish .publish-item-header .ershou {
+    background: #9933fb;
+}
+
+.publish .publish-item-header .tejia {
+    background: #ff3365;
+}
+
+.publish .publish-item-header .wuliu {
+    background: #ff9925;
+}
+
+.publish .publish-btn-wrap {
+    padding: 0 0.727rem;
+}
+
+.publish .publish-btn-wrap .publish-btn-item {
+    padding: 0 0.545rem;
+    color: #949494;
+    border: 0.05rem solid rgba(174, 174, 174, 1);
+    text-align: center;
+    font-size: 0.636rem;
+    border-radius:  0.181rem;
+    display: inline-block;
+    margin-top: 0.818rem;
+    margin-left: 0.727rem;
+}
+
+.publish .publish-btn-wrap .publish-btn-item a {
+    color: #949494;
+}
+
