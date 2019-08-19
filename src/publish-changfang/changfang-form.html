@@ -13,10 +13,10 @@
     <title>首页</title>
     <link rel="stylesheet" href="../public/css/bootstrap.min.css">
     <link rel="stylesheet" href="../public/css/public.css">
-    <link rel="stylesheet" href="./css/zhaopin-form.css">
+    <link rel="stylesheet" href="./css/changfang-form.css">
 </head>
 <body>
-    <div class="public-form zhaopin-form">
+    <div class="public-form changfang-form">
         <header class="header-wrap">
             <div class="header-l">
                 <a href="javascript:history.go(-1)">
@@ -25,7 +25,7 @@
             </div>
             <div class="header-title">
                 <h1>
-                    全职招聘
+                    出售厂房
                 </h1>
             </div>
         </header>
@@ -34,7 +34,15 @@
             <div class="container-fluid form-wrap">
                 <form class="form-style">
                     <div class="form-group form-item-wrap">
-                        <label class="col-form-label zhaopin-label">需求职位</label>
+                        <label class="col-form-label zhaopin-label">厂房名称</label>
+                        <div class="form-input-wrap">
+                            <input type="input" class="form-control form-input">
+                            <div  class="form-text text-muted">错误信息</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-item-wrap">
+                        <label class="col-form-label zhaopin-label">厂房地区</label>
                         <div class="form-input-wrap">
                             <select class="form-control form-input form-input-select">
                                 <option selected>first</option>
@@ -43,57 +51,32 @@
                             <div  class="form-text text-muted">错误信息</div>
                         </div>
                     </div>
+
                     <div class="form-group form-item-wrap">
-                        <label class="col-form-label zhaopin-label">工作年限</label>
+                        <label class="col-form-label zhaopin-label">详细地址</label>
+                        <div class="form-input-wrap">
+                            <textarea class="form-control form-text-area" rows="3"></textarea>
+                            <div  class="form-text text-muted">错误信息</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-item-wrap">
+                        <label class="col-form-label zhaopin-label">厂房面积</label>
                         <div class="form-input-wrap input-with-unit">
                             <input type="input" class="form-control form-input">
-                            <div class="input-uint">年</div>
+                            <div class="input-uint">㎡</div>
                             <div  class="form-text text-muted">错误信息</div>
                         </div>
                     </div>
 
                     <div class="form-group form-item-wrap">
-                        <label class="col-form-label zhaopin-label">岗位薪资</label>
+                        <label class="col-form-label zhaopin-label">厂房名称</label>
                         <div class="form-input-wrap">
-                            <input type="input" class="form-control form-input" >
-                        </div>
-                        <div class="line-input">--</div>
-                        <div class="form-input-wrap input-with-unit">
-                                <input type="input" class="form-control form-input" >
-                                <div class="input-uint">元</div>
-                        </div>
-
-                        <div class="form-input-wrap checkbox-label">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio">
-                                <label class="form-check-label">
-                                    面议
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group form-item-wrap">
-                        <label class="col-form-label zhaopin-label">学历要求</label>
-                        <div class="form-input-wrap">
-                            <select class="form-control form-input form-input-select">
-                                <option selected>first</option>
-                                <option>second</option>
-                            </select>
+                            <input type="input" class="form-control form-input">
                             <div  class="form-text text-muted">错误信息</div>
                         </div>
                     </div>
 
-                    <div class="form-group form-item-wrap">
-                        <label class="col-form-label zhaopin-label">工作地点</label>
-                        <div class="form-input-wrap">
-                            <select class="form-control form-input form-input-select">
-                                <option selected>first</option>
-                                <option>second</option>
-                            </select>
-                            <div  class="form-text text-muted">错误信息</div>
-                        </div>
-                    </div>
 
                     <div class="form-group form-item-wrap">
                         <label class="col-form-label zhaopin-label">联系人</label>
@@ -108,6 +91,22 @@
                         <div class="form-input-wrap">
                             <input type="input" class="form-control form-input" placeholder="input">
                             <div  class="form-text text-muted">错误信息</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-item-wrap">
+                        <label class="col-form-label zhaopin-label">岗位薪资</label>
+                        <div class="form-input-wrap input-with-unit">
+                            <input type="input" class="form-control form-input" >
+                        </div>
+
+                        <div class="form-input-wrap checkbox-label">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio">
+                                <label class="form-check-label">
+                                    面议
+                                </label>
+                            </div>
                         </div>
                     </div>
 
