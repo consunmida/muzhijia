@@ -288,3 +288,8 @@
     margin-left: 0.5rem;
     background: #ffcccc;
 }
+
+.submit-btn-color {
+    background: rgba(22, 155, 213, 1);
+    color: #fff;
+}

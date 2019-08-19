@@ -51,8 +51,7 @@ header,
     height: 100%;
 }
 .zhaopin-form .content {
-    padding: 0.5rem;
-    padding-bottom: 3.16667rem;
+    padding-bottom: 1.363rem;
     padding-top: 2rem;
     background: #fff;
     height: 100%;
@@ -66,21 +65,99 @@ header,
 
 .zhaopin-form .zhaopin-label {
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 0.6rem;
+    width: 2.64rem;
+    text-align: right;
 }
 .zhaopin-form .form-input-wrap {
     flex: 1;
 }
 
+.zhaopin-form .form-input-wrap > img {
+    width: 100%;
+    height: auto;
+}
+
 .zhaopin-form .form-item-wrap {
     display: flex;
+    margin-bottom: 0.7rem;
+    position: relative;
 }
 
 .zhaopin-form .form-wrap{
     margin-top: 1.36rem;
 }
 
-.zhaopin-form .form-input-select {
-    height: 2.09rem!important;
+.zhaopin-form .form-input {
+    height: 1.59rem!important;  
     font-size: 0.636rem;
+    padding: 0.2rem;
+}
+.zhaopin-form .input-uint {
+    position: absolute;
+    right: 0.4rem;
+    top: 0;
+    height: 1.59rem;
+    line-height: 1.59rem;
+}
+
+.zhaopin-form .form-input-wrap.input-with-unit {
+    padding-right: 1.4rem;
+    position: relative;
+}
+
+.zhaopin-form .form-input-select {
+    
+    font-size: 0.636rem;
+    padding: 0;
+}
+
+.zhaopin-form .checkbox-label {
+    line-height: 1.42rem;
+}
+
+.zhaopin-form .line-input {
+    margin: 0 0.181rem;
+    color: #ccc;
+    line-height: 1.59rem;
+    height: 100%;
+}
+
+.zhaopin-form .upload-file {
+    margin-top: 0.272rem;
+}
+
+.zhaopin-form .upload-button {
+    width: 3.818rem;
+    height: 1.272rem;
+    font-size: 0.636rem;
+    padding: 0.1rem 0.636rem;
+}
+
+.zhaopin-form .desc-wrap {
+    margin: 0.363rem 0;
+    padding-top: 0.05rem;
+}
+
+.zhaopin-form .form-text-area {
+    font-size: 0.636rem!important;
+}
+
+.zhaopin-form .sumbit-form-wrap {
+    text-align: center;
+}
+
+.zhaopin-form .sumbit-form-wrap > button {
+    width: 4.727rem;
+    height: 1.663rem;
+    font-size: 0.636rem;
+    padding: 0.1rem 0.636rem;
+}
+
+
+.zhaopin-form .icon-position {
+    padding-left: 0.909rem;
+    background-image: url('../../images/icon-user.png');
+    background-repeat: no-repeat;
+    background-size: 0.909rem;
 }
