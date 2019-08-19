@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit:cover,shrink-to-fit=no">
+    <title>首页</title>
+    <link rel="stylesheet" href="../public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/public.css">
+    <link rel="stylesheet" href="./css/logistics-goods-form.css">
+</head>
+<body>
+    <div class="public-form logistics-goods-form">
+        <header class="header-wrap">
+            <div class="header-l">
+                <a href="javascript:history.go(-1)">
+                    <i class="back"></i>
+                </a>
+            </div>
+            <div class="header-title">
+                <h1> 
+                找货
+                </h1>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="container-fluid form-wrap">
+                <form class="form-style">
+                    <div class="form-group form-item-wrap">
+                        <label class="col-form-label zhaopin-label">车辆</label>
+                        <div class="form-input-wrap">
+                            <input type="input" class="form-control form-input" placeholder="车辆类型">
+                            <div  class="form-text text-muted">错误信息</div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group form-item-wrap">
+                        <label class="col-form-label zhaopin-label">载重</label>
+                        <div class="form-input-wrap input-with-unit">
+                            <input type="input" class="form-control form-input" placeholder="载重">
+                            <div class="input-uint">吨</div>
+                            <div  class="form-text text-muted">错误信息</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-item-wrap">
+                        <label class="col-form-label zhaopin-label">运价</label>
+                        <div class="form-input-wrap input-with-unit">
+                            <input type="input" class="form-control form-input" placeholder="运价">
+                            <div class="input-uint">元</div>
+                            <div  class="form-text text-muted">错误信息</div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group form-item-wrap">
+                        <label class="col-form-label zhaopin-label">联系人</label>
+                        <div class="form-input-wrap">
+                            <input type="input" class="form-control form-input">
+                            <div  class="form-text text-muted">错误信息</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-item-wrap">
+                        <label class="col-form-label zhaopin-label">联系方式</label>
+                        <div class="form-input-wrap">
+                            <input type="input" class="form-control form-input" placeholder="input">
+                            <div  class="form-text text-muted">错误信息</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-item-wrap">
+                        <label class="col-form-label zhaopin-label">图片</label>
+                        <div class="form-input-wrap">
+                            <img src="../images/activity.png" alt="图片">
+                            <div class="upload-file">
+                                <button type="button" class="btn btn-primary upload-button">上传</button>
+                            </div>
+                            <div  class="form-text text-muted">错误信息</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-item-wrap">
+                        <label class="col-form-label zhaopin-label">描述</label>
+                        <div class="form-input-wrap">
+                            <div  class="form-text text-muted desc-wrap">(展示在首页，需认真填写)</div>
+                            <textarea class="form-control form-text-area" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <div  class="form-text text-muted">错误信息</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-item-wrap">
+                        <label class="col-form-label zhaopin-label"><i class="icon-position"></i>上海</label>
+                    </div>
+                    <div class="sumbit-form-wrap"><button type="submit" class="btn btn-primary btn-sm">提交</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../public/js/zepto.min.js"></script>
+</html>
