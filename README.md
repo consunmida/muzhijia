@@ -1,4 +1,4 @@
-# muzhijia
+# muzhijia （node_modules和package.json这类是没有用的）
 
 home 首页
 
