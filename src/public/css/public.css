@@ -51,9 +51,12 @@
     display: flex;
 }
 
+.message-wrap .message-text-wrap .message-text {
+    flex: 1;
+}
+
 .message-wrap .message-text-wrap .message-img  {
-    width: 20rem;
-    height: 3rem;
+    width: 7rem;
 }
 
 .message-wrap .message-text-wrap .message-img img {
