@@ -170,6 +170,13 @@
     z-index: 2;
     display: none;
 }
+.public-footer .publish-btn-bg.publish-with-four-btn {
+    left: -1rem;
+}
+
+.public-footer .publish-btn-bg.publish-with-two-btn {
+    left: 1.5rem;
+}
 .public-footer .publish-btn-active {
     display: block;
 }
@@ -195,6 +202,11 @@
 .public-footer .publish-btn-active .publish-animate-third {
     animation: publishBtnThirdAnimation 0.5s  forwards; 
    -webkit-animation: publishBtnThirdAnimation 0.5s  forwards;
+}
+
+.public-footer .publish-btn-active .publish-animate-forth {
+    animation: publishBtnForthAnimation 0.5s  forwards; 
+   -webkit-animation: publishBtnForthAnimation 0.5s  forwards;
 }
 
 @keyframes publishBtnFirstAnimation {
@@ -248,6 +260,26 @@
         }
     100% {
         transform: translate(-webkit-calc(-50% + 1rem + 2.272rem), -50%);
+        }
+}
+
+/* 1rem 是之间的间隔距离， 2.272rem是每一个圆圈的宽度 */
+
+@keyframes publishBtnForthAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(calc(-50% + 2rem + 4.544rem), -50%);
+        }
+}
+
+@-webkit-keyframes publishBtnForthAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(-webkit-calc(-50% + 2rem + 4.544rem), -50%);
         }
 }
 
