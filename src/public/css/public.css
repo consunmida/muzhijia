@@ -170,13 +170,7 @@
     z-index: 2;
     display: none;
 }
-.public-footer .publish-btn-bg.publish-with-four-btn {
-    left: -1rem;
-}
 
-.public-footer .publish-btn-bg.publish-with-two-btn {
-    left: 1.5rem;
-}
 .public-footer .publish-btn-active {
     display: block;
 }
@@ -191,6 +185,54 @@
     line-height: initial;
 }
 
+.public-footer .publish-btn-active.publish-with-two-btn  .publish-animate-first{
+    animation: publishTwoBtnFirstAnimation 0.5s  forwards; 
+    -webkit-animation: publishTwoBtnFirstAnimation 0.5s  forwards;
+}
+.public-footer .publish-btn-active.publish-with-two-btn  .publish-animate-second{
+    animation: publishTwoBtnSecondAnimation 0.5s  forwards; 
+    -webkit-animation: publishTwoBtnSecondAnimation 0.5s  forwards;
+}
+
+
+@keyframes publishTwoBtnFirstAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(calc(-50% - 0.5rem - 1.1355rem), -50%);
+        }
+}
+
+@-webkit-keyframes publishTwoBtnFirstAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(-webkit-calc(-50% - 0.5rem - 1.1355rem), -50%);
+        }
+}
+
+@keyframes publishTwoBtnSecondAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(calc(-50% + 0.5rem + 1.1355rem), -50%);
+        }
+}
+
+@-webkit-keyframes publishTwoBtnSecondAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(calc(-50% + 0.5rem + 1.1355rem), -50%);
+        }
+}
+
+
+
 .public-footer .publish-btn-active .publish-animate-first {
      animation: publishBtnFirstAnimation 0.5s  forwards; 
     -webkit-animation: publishBtnFirstAnimation 0.5s  forwards;
@@ -202,11 +244,6 @@
 .public-footer .publish-btn-active .publish-animate-third {
     animation: publishBtnThirdAnimation 0.5s  forwards; 
    -webkit-animation: publishBtnThirdAnimation 0.5s  forwards;
-}
-
-.public-footer .publish-btn-active .publish-animate-forth {
-    animation: publishBtnForthAnimation 0.5s  forwards; 
-   -webkit-animation: publishBtnForthAnimation 0.5s  forwards;
 }
 
 @keyframes publishBtnFirstAnimation {
@@ -265,21 +302,91 @@
 
 /* 1rem 是之间的间隔距离， 2.272rem是每一个圆圈的宽度 */
 
-@keyframes publishBtnForthAnimation {
+.public-footer .publish-btn-active.publish-with-four-btn  .publish-animate-first{
+    animation: publishFourBtnFirstAnimation 0.5s  forwards; 
+    -webkit-animation: publishFourBtnFirstAnimation 0.5s  forwards;
+}
+.public-footer .publish-btn-active.publish-with-four-btn  .publish-animate-second{
+    animation: publishFourBtnSecondAnimation 0.5s  forwards; 
+    -webkit-animation: publishFourBtnSecondAnimation 0.5s  forwards;
+}
+.public-footer .publish-btn-active.publish-with-four-btn  .publish-animate-third{
+    animation: publishFourBtnThirdAnimation 0.5s  forwards; 
+    -webkit-animation: publishFourBtnThirdAnimation 0.5s  forwards;
+}
+.public-footer .publish-btn-active.publish-with-four-btn  .publish-animate-forth{
+    animation: publishFourBtnForthAnimation 0.5s  forwards; 
+    -webkit-animation: publishFourBtnForthAnimation 0.5s  forwards;
+}
+
+@keyframes publishFourBtnFirstAnimation {
     0% {
         transform: translate(-50%, 100%);
         }
     100% {
-        transform: translate(calc(-50% + 2rem + 4.544rem), -50%);
+        transform: translate(calc(-50% - 1.5rem - 3.4065rem), -50%);
         }
 }
 
-@-webkit-keyframes publishBtnForthAnimation {
+@-webkit-keyframes publishFourBtnFirstAnimation {
     0% {
         transform: translate(-50%, 100%);
         }
     100% {
-        transform: translate(-webkit-calc(-50% + 2rem + 4.544rem), -50%);
+        transform: translate(-webkit-calc(-50% - 1.5rem - 3.4065rem), -50%);
+        }
+}
+
+@keyframes publishFourBtnSecondAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(calc(-50% - 0.5rem - 1.1355rem), -50%);
+        }
+}
+
+@-webkit-keyframes publishFourBtnSecondAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(-webkit-calc(-50% - 0.5rem - 1.1355rem), -50%);
+        }
+}
+
+@keyframes publishFourBtnThirdAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(calc(-50% +  0.5rem + 1.1355rem), -50%);
+        }
+}
+
+@-webkit-keyframes publishFourBtnThirdAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(-webkit-calc(-50% +  0.5rem + 1.1355rem), -50%);
+        }
+}
+@keyframes publishFourBtnForthAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(calc(-50% + 1.5rem + 3.4065rem), -50%);
+        }
+}
+
+@-webkit-keyframes publishFourBtnForthAnimation {
+    0% {
+        transform: translate(-50%, 100%);
+        }
+    100% {
+        transform: translate(-webkit-calc(-50% + 1.5rem + 3.4065rem), -50%);
         }
 }
 
