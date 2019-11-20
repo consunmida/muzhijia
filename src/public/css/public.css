@@ -159,11 +159,6 @@
     z-index: 3;
     font-size: 0.545rem;
     visibility: hidden;
-    
-    -webkit-transform: translateZ(0);
-
-    transition: transform 0.5s ease;
-    -webkit-transition: -webkit-transform 0.5s ease;
 }
 
 .public-footer .publish-btn-bg {
@@ -192,6 +187,8 @@
     text-align: center;
     line-height: initial;
     visibility: visible;
+    transition: transform 0s ease;
+    -webkit-transition: -webkit-transform 0s ease;
 }
 
 .public-footer .publish-btn-active.publish-with-two-btn  .publish-animate-first{
@@ -243,6 +240,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     width: 100%;
     color: rgba(255, 153, 0, 1);
 }
