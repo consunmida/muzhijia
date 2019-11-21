@@ -187,23 +187,24 @@
     text-align: center;
     line-height: initial;
     visibility: visible;
-    transition: transform 0s ease;
-    -webkit-transition: -webkit-transform 0s ease;
+    margin-left: -1.136rem;
+    transition: top .5s ease, left .5s ease;
+    -webkit-transition:  top .5s ease, left .5s ease;
 }
 
-.public-footer .publish-btn-active.publish-with-two-btn  .publish-animate-first{
+/* .public-footer .publish-btn-active.publish-with-two-btn  .publish-animate-first{
     transform: translate(calc(-50% - 0.5rem - 1.1355rem), -50%);
     -webkit-transform: translate(-webkit-calc(-50% - 0.5rem - 1.1355rem), -50%);
 }
 .public-footer .publish-btn-active.publish-with-two-btn  .publish-animate-second{
     transform: translate(calc(-50% + 0.5rem + 1.1355rem), -50%);
     -webkit-transform: translate(calc(-50% + 0.5rem + 1.1355rem), -50%);
-}
+} */
 
 
 
 
-.public-footer .publish-btn-active .publish-animate-first {
+/* .public-footer .publish-btn-active .publish-animate-first {
     transform: translate(-webkit-calc(-50% - 1rem - 2.272rem), -50%);
     -webkit-transform: translate(-webkit-calc(-50% - 1rem - 2.272rem), -50%);
 }
@@ -214,11 +215,11 @@
 .public-footer .publish-btn-active .publish-animate-third {
    transform: translate(calc(-50% + 1rem + 2.272rem), -50%);
    -webkit-transform: translate(-webkit-calc(-50% + 1rem + 2.272rem), -50%);
-}
+} */
 
 /* 1rem 是之间的间隔距离， 2.272rem是每一个圆圈的宽度 */
 
-.public-footer .publish-btn-active.publish-with-four-btn  .publish-animate-first{
+/* .public-footer .publish-btn-active.publish-with-four-btn  .publish-animate-first{
     transform: translate(calc(-50% - 1.5rem - 3.4065rem), -50%);
     -webkit-transform: translate(-webkit-calc(-50% - 1.5rem - 3.4065rem), -50%);
 }
@@ -233,7 +234,7 @@
 .public-footer .publish-btn-active.publish-with-four-btn  .publish-animate-forth{
     transform: translate(calc(-50% + 1.5rem + 3.4065rem), -50%);
     -webkit-transform: translate(-webkit-calc(-50% + 1.5rem + 3.4065rem), -50%);
-}
+} */
 
 .publish-btn-text {
     position: absolute;
