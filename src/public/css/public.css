@@ -150,9 +150,14 @@
     color: #fff;
 }
 .public-footer .publish-btn-common {
-    width: 0;
-    transform: translate(-50%, 100%);
-    -webkit-transform: translate(-50%, 100%);
+    width: 2.272rem;
+    height: 2.272rem;
+    border-radius: 50%;
+    border: 0.05rem solid rgba(255, 153, 0, 1);
+    margin-left: -1.136rem;
+    
+    text-align: center;
+    line-height: initial;
     left: 50%;
     top: 50%;
     position: absolute;
@@ -179,62 +184,12 @@
 }
 
 .public-footer .publish-btn-active .publish-btn-common {
-    width: 2.272rem;
-    height: 2.272rem;
-    border-radius: 50%;
-    border: 0.05rem solid rgba(255, 153, 0, 1);
-    
-    text-align: center;
-    line-height: initial;
+
     visibility: visible;
-    margin-left: -1.136rem;
+
     transition: top .5s ease, left .5s ease;
     -webkit-transition:  top .5s ease, left .5s ease;
 }
-
-/* .public-footer .publish-btn-active.publish-with-two-btn  .publish-animate-first{
-    transform: translate(calc(-50% - 0.5rem - 1.1355rem), -50%);
-    -webkit-transform: translate(-webkit-calc(-50% - 0.5rem - 1.1355rem), -50%);
-}
-.public-footer .publish-btn-active.publish-with-two-btn  .publish-animate-second{
-    transform: translate(calc(-50% + 0.5rem + 1.1355rem), -50%);
-    -webkit-transform: translate(calc(-50% + 0.5rem + 1.1355rem), -50%);
-} */
-
-
-
-
-/* .public-footer .publish-btn-active .publish-animate-first {
-    transform: translate(-webkit-calc(-50% - 1rem - 2.272rem), -50%);
-    -webkit-transform: translate(-webkit-calc(-50% - 1rem - 2.272rem), -50%);
-}
-.public-footer .publish-btn-active .publish-animate-second {
-   transform: translate(-50%, -50%);
-   -webkit-transform: translate(-50%, -50%);
-}
-.public-footer .publish-btn-active .publish-animate-third {
-   transform: translate(calc(-50% + 1rem + 2.272rem), -50%);
-   -webkit-transform: translate(-webkit-calc(-50% + 1rem + 2.272rem), -50%);
-} */
-
-/* 1rem 是之间的间隔距离， 2.272rem是每一个圆圈的宽度 */
-
-/* .public-footer .publish-btn-active.publish-with-four-btn  .publish-animate-first{
-    transform: translate(calc(-50% - 1.5rem - 3.4065rem), -50%);
-    -webkit-transform: translate(-webkit-calc(-50% - 1.5rem - 3.4065rem), -50%);
-}
-.public-footer .publish-btn-active.publish-with-four-btn  .publish-animate-second{
-    transform: translate(calc(-50% - 0.5rem - 1.1355rem), -50%);
-    -webkit-transform: translate(-webkit-calc(-50% - 0.5rem - 1.1355rem), -50%);
-}
-.public-footer .publish-btn-active.publish-with-four-btn  .publish-animate-third{
-    transform: translate(calc(-50% +  0.5rem + 1.1355rem), -50%);
-    -webkit-transform: translate(-webkit-calc(-50% +  0.5rem + 1.1355rem), -50%);
-}
-.public-footer .publish-btn-active.publish-with-four-btn  .publish-animate-forth{
-    transform: translate(calc(-50% + 1.5rem + 3.4065rem), -50%);
-    -webkit-transform: translate(-webkit-calc(-50% + 1.5rem + 3.4065rem), -50%);
-} */
 
 .publish-btn-text {
     position: absolute;
